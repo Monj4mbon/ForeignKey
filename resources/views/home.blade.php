@@ -25,6 +25,7 @@
             <option value="Eau">Eau</option>
             <option value="Plante">Plante</option>
             <option value="Electrik">Electrik</option>
+            <option value="Psy">Psy</option>
             <option value="Glace">Glace</option>
             <option value="Dragon">Dragon</option>
             <option value="Ténèbres">Ténèbres</option>
