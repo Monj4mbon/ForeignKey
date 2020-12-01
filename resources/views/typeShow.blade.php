@@ -10,7 +10,7 @@
                     @csrf
                     <button class="text-dark btn btn-danger font-weight-bold">Delete</button>
                 </form>
-                <a href="/editType/{{$item->id}}" class="text-dark btn btn-success font-weight-bold">Edit</a>
+                <a href="/editType/{{$item->id}}" class="text-dark btn btn-success font-weight-bold my-2">Edit</a>
             </ul>
         </div>
     @endforeach
