@@ -66,7 +66,6 @@ class PokemonController extends Controller
     public function showBtn($id)
     {
         $showPokemon = Pokemon::find($id);
-        // dd($showPokemon);
         return view('pokemon', compact('showPokemon'));
     }
 
@@ -110,6 +109,6 @@ class PokemonController extends Controller
     {
         $deletePokemon = Pokemon::find($id);
         $deletePokemon->delete();
-        return redirect()->back();
+        return redirect('/');
     }
 }
